@@ -1,0 +1,23 @@
+# Segfaults
+vgcore*
+
+# Emacs and tmp files
+*~
+\#*\#
+.#*
+
+# CLion
+.idea/
+cmake-build-debug
+
+# Compilations
+*.o
+*.gch
+
+# Misc
+a.out
+build/Indie Studio/bin/cpp_indie_studio
+
+cmake-build-default/
+
+build

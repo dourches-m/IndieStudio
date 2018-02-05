@@ -1,0 +1,216 @@
+material EmptyCube
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+        		depth_write off
+
+         		texture_unit
+        	  	{
+        			colour_op_ex source1 src_manual src_current 1 1 1
+        			alpha_op_ex source1 src_manual src_current 0
+        	  	}
+		}
+	}
+}
+
+material WoodCube
+{
+	technique
+	{
+		pass
+		{
+                    ambient 1 1 1
+			texture_unit
+			{
+				texture BoxResized.jpg
+			}
+		}
+	}
+}
+
+material MetalCube
+{
+	technique
+	{
+		pass
+		{
+                    ambient 0.5 0.5 0.5
+			texture_unit
+			{
+				texture BumpyMetal.jpg
+			}
+		}
+	}
+}
+
+
+material BonusBomb
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BonusBombShadowed.jpg
+			}
+		}
+	}
+}
+
+material BonusFlame
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BonusFlameShadowed.jpg
+			}
+		}
+	}
+}
+
+material BonusSpeed
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BonusSpeedShadowed.jpg
+			}
+		}
+	}
+}
+
+material MainMenuBackdrop
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BombermanBackdrop.jpg
+			}
+		}
+	}
+}
+
+material GameMenuBackdrop
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BombermanBackdrop2.jpg
+			}
+		}
+	}
+}
+
+material Examples/SpaceSkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture stevecube.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material Examples/NinjaRed
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture nskinrd.jpg
+			}
+		}
+	}
+}
+
+material Examples/NinjaBlue
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture nskinbl.jpg
+			}
+		}
+	}
+}
+
+material Examples/NinjaYellow
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture nskinyl.jpg
+			}
+		}
+	}
+}
+
+material Examples/Ninja
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture nskingr.jpg
+			}
+		}
+	}
+}
+
+material Fire
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture fire.png
+			}
+		}
+	}
+}

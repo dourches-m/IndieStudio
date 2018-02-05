@@ -1,0 +1,89 @@
+material WoodCube
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BoxResized.jpg
+			}
+		}
+	}
+}
+
+material MetalCube
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BumpyMetal.jpg
+			}
+		}
+	}
+}
+
+material BonusBomb
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BonusBombShadowed.jpg
+			}
+		}
+	}
+}
+
+material BonusFlame
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BonusFlameShadowed.jpg
+			}
+		}
+	}
+}
+
+material BonusSpeed
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BonusSpeedShadowed.jpg
+			}
+		}
+	}
+}
+
+material Fire
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture fire.png
+			}
+		}
+	}
+}

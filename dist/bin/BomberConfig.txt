@@ -1,0 +1,8 @@
+[Player1]
+Controller = Keyboard
+KeySet = Set1
+
+[Player2]
+Controller = Keyboard
+KeySet = Set1
+
