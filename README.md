@@ -3,8 +3,8 @@
 
 # Team
 
-Hugo WILLAUME <br />
 Martin DOURCHES <br />
+Hugo WILLAUME <br />
 Rémi SEZILLE <br />
 Julien HOUZET <br />
 Hugo BALDASSIN <br />
